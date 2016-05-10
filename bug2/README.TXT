@@ -1,6 +1,6 @@
 Hi, this is the improved solution compared to the previous one.
 
-Thanks to Sandeep, I improved the algorithm for deciding how much angle to turn when robot hitting the s-line by using orientation.
+I improved the algorithm for deciding how much angle to turn when robot hitting the s-line by using orientation.
 
 And also this version can handle some other situations that cannot be handled by the initial version.
 
