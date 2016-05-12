@@ -1,0 +1,45 @@
+***********************
+This is the log I used to figure out the weakness of selective search at the very beginning
+***********************
+
+Test1: black and white. I expected it would miss some opjects, but it turned out that it recognized everything in the pictures.
+
+Then I thought it might have a low performance on large number of similar objects.
+
+Test2: Crowd people. It turned out that it not only recognized the faces of crowd people but also the details of clothes.
+
+Test3: Fruit. It identified all the opjects including all kind of fruit, brackets, battery in the back of the image.
+
+Test4: worked well.
+
+Then some tests on paintings.
+
+Test5: Chinese painting people. Though people in chinese painting are kind of abstract, but it can recoginize it perfectly.
+
+Test6: good.
+
+Test7: Chinese painting view. Amazing. It can difference mountain even mountains in different distance. Also the water, the boat in the water, trees.
+
+Cats:
+
+Test8: it can distinguish three different cats, but not very good
+
+************Test9: not perfect, cannot recognize the very left cat, but just part of it, not combine them together.
+
+Test10: still chinese view. Good.
+
+TEST11,12: BLUR IMAGE, WORKED WELL IF COLOR IS DISTINGUISHABLE.
+
+*************test13&14: blur largrly influence the results
+
+*************test15: crowd people, large number of same size objects not be recognized perfectly.And object cannot be recognized when it is really small.
+
+*************test16: cannot recognize far building in fog
+
+*************test17: image too small
+
+*************test18: foggy night city. Do not have much detials in blur dark part.
+
+*************test19: sin city. Cannot take the womman on the bed out.
+
+test20: some meaningless parten
